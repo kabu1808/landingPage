@@ -1,0 +1,22 @@
+.perks {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.perks h1 {
+  font-size: 50px;
+}
+.rows {
+  display: flex;
+}
+.perks-left {
+  margin: auto;
+  width: 300px;
+  text-align: right;
+  padding-left: 17%;
+}
+.perks-right {
+  text-align: left;
+  margin: auto;
+  width: 300px;
+  padding-right: 17%;
+}

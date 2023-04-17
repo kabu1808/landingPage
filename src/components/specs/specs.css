@@ -1,0 +1,55 @@
+.cource {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+
+  /* padding-top: 100px; */
+}
+
+.cource h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #222;
+  font-family: "Nunito", sans-serif;
+}
+
+.course-col p {
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0 #666;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}

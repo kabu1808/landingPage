@@ -1,0 +1,24 @@
+.slider {
+  margin: 0;
+  padding: 0;
+}
+.slider-title h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.slider-title p {
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0 15% 50px 15%;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.slider .slick-center img {
+  opacity: 1;
+}
+.slider img {
+  opacity: 0.4;
+  height: 606px;
+}

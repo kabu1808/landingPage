@@ -1,0 +1,49 @@
+.details {
+  display: flex;
+  padding: 50px 0;
+  margin: 150px auto;
+  background: #ec4243;
+}
+.dtl-img {
+  margin: auto;
+  z-index: 1;
+  position: absolute;
+  padding-left: 36%;
+  padding-top: 0%;
+}
+.dtl-img img {
+  width: 445px;
+}
+.about {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.dtl {
+  margin: auto;
+  padding-right: 15%;
+  width: 700px;
+}
+.dtl h1 {
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+.dtl h2 {
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+
+.dtl p {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .dtl h1 {
+    font-size: 24px;
+  }
+}
