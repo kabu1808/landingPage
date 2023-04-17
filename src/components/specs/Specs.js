@@ -21,30 +21,25 @@ const Specs = () => {
             <i className="fa-solid fa-user"></i>
             <h3>Multiple User</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Veritatis aliquam et distinctio odio quidem commodi, expedita eos
-              tenetur suscipit? Explicabo quod voluptas sit quis doloremque non
-              delectus exercitationem quo autem!
+              Team11 is very big users Community and Provide Platform to meet
+              and play game wth worldwide users
             </p>
           </div>
           <div className="course-col">
             <i className="fa-sharp fa-solid fa-trophy"></i>
             <h3>Daily Games</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Veritatis aliquam et distinctio odio quidem commodi, expedita eos
-              tenetur suscipit? Explicabo quod voluptas sit quis doloremque non
-              delectus exercitationem quo autem!
+              games to make real money using your cricketing knowledge. Create
+              your dream team, participate in the game, check out the
+              leaderboard and win big.
             </p>
           </div>
           <div className="course-col">
             <i className="fa-solid fa-people-group"></i>
             <h3>Multiple Teams</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Veritatis aliquam et distinctio odio quidem commodi, expedita eos
-              tenetur suscipit? Explicabo quod voluptas sit quis doloremque non
-              delectus exercitationem quo autem!
+              Team11 is a 1st app of Cricket fantasy where any user can create
+              Multiple teams on in the games Create task
             </p>
           </div>
         </div>

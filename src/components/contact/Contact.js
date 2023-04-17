@@ -15,7 +15,7 @@ const Contact = () => {
               <br />
               To Get Link,
             </h1>
-            <h2>Download Now!</h2>
+            <h2 style={{ color: "yellow" }}>Download Now!</h2>
           </div>
         </div>
         <div className="download-btn">

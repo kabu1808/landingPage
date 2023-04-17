@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import Home from "../Home/Home";
-import whiteN from "../../images/whiteN.png";
-import blackN from "../../images/blackN.png";
 
 const Navbar = () => {
   const scrollHandler = (e) => {
@@ -29,7 +27,14 @@ const Navbar = () => {
     <div className="header" id="header">
       <nav className={scrolled ? "navbar scrolled" : "navbar"}>
         <div>
-          <img src={scrolled ? blackN : whiteN} alt="1234" />
+          <img
+            src={
+              scrolled
+                ? "https://team11cricket.com/web/images/logo.png"
+                : "https://team11cricket.com/web/images/logo-grey.png"
+            }
+            alt="1234"
+          />
         </div>
         <div
           className={scrolled ? "nav-links scrolled" : "nav-links"}
@@ -44,7 +49,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#activity" onClick={scrollHandler}>
-                ACTIVITY
+                HOW TO PLAY
               </a>
             </li>
             <li>

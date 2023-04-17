@@ -17,11 +17,15 @@ const Home = () => {
         }
         ref={ref}
       >
-        <h1>Earn Money</h1>
+        {/* <h1>Earn Money</h1> */}
         <p>
-          India's Biggest Platform
+          India's first <br /> Fantasy app,
+          <br /> Where You Can
           <br />
-          To Earn Money Online
+          <span style={{ color: "yellow" }}>
+            EARN & WIN <br />
+          </span>
+          Real Money
         </p>
         <div className="download-btn">
           <a href="/">

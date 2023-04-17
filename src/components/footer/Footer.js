@@ -5,13 +5,12 @@ const Footer = () => {
   return (
     <div>
       <section className="footer">
-        <h4>Unique Tech</h4>
+        <img src="https://team11cricket.com/web/images/logo.png" alt="" />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iste
-          alias,
-          <br />
-          libero voluptatem tempora suscipit velit. Ducimus tempora dignissimos
-          unde!
+          Team11 fantasy cricket for free! Use your cricketing knowledge to
+          create your <br /> dream team and participate in game. Top performers
+          win real cash. Available only
+          <br /> on Google Play Store. Download now!
         </p>
         <div className="icons">
           <i className="fa-brands fa-facebook-f"></i>

@@ -16,7 +16,10 @@ const Play = () => {
               : "play-img"
           }
         >
-          <img src="https://team11cricket.com/web/images/image-02.png" alt="" />
+          <img
+            src="	https://team11cricket.com/web/images/hero-5-img.png"
+            alt=""
+          />
         </div>
         <div className="info">
           <h1>How To Play</h1>
@@ -28,7 +31,9 @@ const Play = () => {
             }
           >
             <h2>Select Match</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>
+              Choose the match available in the list to participate in a game.
+            </p>
           </div>
           <div
             className={
@@ -37,8 +42,8 @@ const Play = () => {
                 : ""
             }
           >
-            <h2>Select Match</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <h2>Create Team</h2>
+            <p>Create a team by selecting 11 players by using 100 credits..</p>
           </div>
           <div
             className={
@@ -47,8 +52,8 @@ const Play = () => {
                 : ""
             }
           >
-            <h2>Select Match</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <h2>Join Game</h2>
+            <p>Enter a game with the created team by paying a game fee.</p>
           </div>
           <div
             className={
@@ -57,8 +62,11 @@ const Play = () => {
                 : ""
             }
           >
-            <h2>Select Match</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <h2>Win Prize & Earn Commission</h2>
+            <p>
+              Win prize money based on the team's performance along with
+              commissions.
+            </p>
           </div>
         </div>
       </section>

@@ -17,40 +17,42 @@ const Details = () => {
               inView ? "dtl animate__animated animate__fadeInLeft" : "dtl"
             }
           >
-            <h1>
-              Some Detail About Us
-              <br />
-              Know Who We Are
-            </h1>
+            <h1>About Team11</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Team11 is India's first Social Networking Fantasy Mobile
+              application.
+              <br /> While other fantasy sports mobile applications only allow{" "}
               <br />
-              Voluptatum labore provident laborum consectetur quae! Deleniti
-              <br />
-              facilis suscipit quisquam provident necessitatibus?
+              users to earn money by winning games, <br />
+              Team11 users can earn money in 3 different ways.
             </p>
             <div>
               <h2>Game Winnings:</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                <br />
-                Similique soluta assumenda vero ad alias ipsa?
+                Create own fantasy team for games and win money by just
+                <br /> being in top 75%(more than other apps which only reward
+                top
+                <br /> 50%).
               </p>
             </div>
             <div>
-              <h2>Game Winnings:</h2>
+              <h2>Refferal Commission:</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Refer smartphone users to OneTo11 using a unique code. When
                 <br />
-                Similique soluta assumenda vero ad alias ipsa?
+                referrals participate in paid games, earn 1.5% of their game
+                fee.
               </p>
             </div>
             <div>
-              <h2>Game Winnings:</h2>
+              <h2>Refferal Income:</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                On Team11 users earn from referrals of their referrals. <br />
+                Don't miss the chance of earning unlimited income and lifetime
                 <br />
-                Similique soluta assumenda vero ad alias ipsa?
+                rewards. Join Team11 before your friends and family and start
+                <br />
+                sharing your unique code.
               </p>
             </div>
           </div>

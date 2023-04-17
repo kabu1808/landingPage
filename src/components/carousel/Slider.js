@@ -51,8 +51,8 @@ export default class MultipleItems extends Component {
         <div className="slider-title">
           <h1 id="screens"> Unique App Screens </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Repellendus dicta, repellat modi ratione sed vitae!
+            Top performers win real cash. Available only on Google Play Store
+            and <br /> Appstore. Download now!
           </p>
         </div>
         <Slider {...settings} className="slider">
@@ -64,49 +64,49 @@ export default class MultipleItems extends Component {
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/3.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/4.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/5.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/6.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/7.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/8.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/9.jpg"
               alt="rrr"
             />
           </div>
           <div>
             <img
-              src="https://team11cricket.com/web/images/portfolio/2.jpg"
+              src="https://team11cricket.com/web/images/portfolio/10.jpg"
               alt="rrr"
             />
           </div>
