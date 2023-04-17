@@ -1,8 +1,61 @@
 .footer {
-  width: 100%;
+  width: 55%;
   text-align: center;
   padding: 30px 0;
+  margin: auto;
+  justify-content: center;
 }
+.footer-div {
+  justify-content: space-between;
+  display: flex;
+}
+.footer-content {
+  text-align: left;
+}
+.footer-content img {
+  width: 173px;
+  height: 40px;
+}
+.footer-content p {
+  color: #212529;
+  font-weight: 300;
+}
+.footer-links {
+  margin: auto 0;
+}
+.footer-links a {
+  padding: 10px 0;
+  text-align: right;
+  display: block;
+  color: black;
+  font-weight: bolder;
+}
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+}
+.footer-down p {
+  text-align: left;
+  margin: 20px 0;
+  color: #666;
+}
+.footer-nav {
+  margin: auto 0;
+}
+.footer-nav ul li a {
+  color: #666;
+}
+.footer-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 12px;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
 .footer h4 {
   margin-top: 20px;
   margin-bottom: 25px;
