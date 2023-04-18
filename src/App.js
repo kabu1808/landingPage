@@ -7,6 +7,7 @@ import Details from "./components/details/Details";
 import Footer from "./components/footer/Footer";
 import Perks from "./components/perks/Perks";
 import Play from "./components/play/Play";
+import ScrollButton from "./components/scrollButton/ScrollButton";
 import Specs from "./components/specs/Specs";
 // import Review from "./components/userReview/Review";
 
@@ -21,6 +22,7 @@ function App() {
       <MultipleItems />
       <Contact />
       <Footer />
+      <ScrollButton />
     </div>
   );
 }
