@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -12,17 +13,32 @@ import Specs from "./components/specs/Specs";
 // import Review from "./components/userReview/Review";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <div className="App">
-      <Navbar />
-      <Specs />
-      <Play />
-      <Details />
-      <Perks />
-      <MultipleItems />
-      <Contact />
-      <Footer />
-      <ScrollButton />
+      {loading ? (
+        <div className="loader-container">
+          <div className="spinner"></div>
+        </div>
+      ) : (
+        <div>
+          <Navbar />
+          <Specs />
+          <Play />
+          <Details />
+          <Perks />
+          <MultipleItems />
+          <Contact />
+          <Footer />
+          <ScrollButton />
+        </div>
+      )}
     </div>
   );
 }
